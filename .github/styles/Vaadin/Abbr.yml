@@ -22,7 +22,9 @@ exceptions:
   - HTTPS
   - IDE
   - JAR
+  - JPA
   - JSON
+  - NPM
   - PATH
   - PDF
   - POST

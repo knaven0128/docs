@@ -1,6 +1,7 @@
 package com.vaadin.demo.component.details;
 
 import com.vaadin.flow.component.details.Details;
+import com.vaadin.flow.component.details.DetailsVariant;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.ListItem;
 import com.vaadin.flow.component.html.UnorderedList;
@@ -24,10 +25,9 @@ public class DetailsReverse extends Div {
       new ListItem("Zoe Wilson")
     );
 
-    Details details = new Details("Members (8)",
-        content);
+    Details details = new Details("Members (8)", content);
     details.setOpened(true);
-    details.setThemeName("reverse");
+    details.addThemeVariants(DetailsVariant.REVERSE);
 
     add(details);
     // end::snippet[]
