@@ -181,7 +181,8 @@
     "webpack-manifest-plugin": "2.2.0"
   },
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore ./frontend --ext ts --ext js --ext json"
+    "lint": "eslint --ignore-path .gitignore ./frontend --ext ts --ext js --ext json",
+    "docbuilder:sparse-design-system": "node scripts/sparse-design-system"
   },
   "husky": {
     "hooks": {
